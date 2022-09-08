@@ -53,8 +53,6 @@ const Portfolio = () => {
 
 
 
-
-
         fetch(`${Baseurl}getdata/${id}`, requestOptions)
             .then(response => response.json())
             .then(result => {

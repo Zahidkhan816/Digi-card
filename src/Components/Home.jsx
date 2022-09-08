@@ -4,7 +4,6 @@ const Home = () => {
     return (
         <div>
             <div className="main-container crds-color">
-
                 <div className="cards" style={{ display: "flex", flexWrap: "wrap" }}>
                     <div className="card-home card-1" style={{ margin: "20px", padding: "20px", width: "500px" }}>
                         <div className="card__icon text-center mt-2"><i class="fa-solid fa-4x fa-shop"></i>
